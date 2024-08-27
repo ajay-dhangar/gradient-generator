@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff6f61, #6b5b95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    background-color: #4d5061;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.color-picker, .direction-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.color-picker label, .direction-picker label {
+    margin-bottom: 8px;
+}
+
+.color-picker input, .direction-picker select {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.gradient-preview {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-preview p {
+    margin: 0;
+}
+
+.code-output {
+    text-align: left;
+}
+
+.code-output label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#copy {
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: #48df84;
+    color: #154343;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#css-code {
+    width: 98%;
+    height: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    resize: none;
+}
+
+#css-code:focus {
+    outline: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #52dcd5;
+}
+
+
+footer a {
+    color: #ff0;
+    text-decoration: none;
+}
+
+footer p span {
+    color: #ff0;
+}

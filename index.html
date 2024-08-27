@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="author" content="Ajay Dhangar">
+    <meta name="description" content="Create beautiful gradients with ease using Gradient Generator">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gradient Generator</h1>
+            <p>Create beautiful gradients with ease</p>
+        </header>
+        <main>
+            <div class="controls">
+                <div class="color-picker">
+                    <label for="color1">Color 1:</label>
+                    <input type="color" id="color1" value="#ff6f61">
+                </div>
+                <div class="color-picker">
+                    <label for="color2">Color 2:</label>
+                    <input type="color" id="color2" value="#6b5b95">
+                </div>
+                <div class="direction-picker">
+                    <label for="direction">Direction:</label>
+                    <select id="direction">
+                        <option value="to right">To Right</option>
+                        <option value="to left">To Left</option>
+                        <option value="to bottom">To Bottom</option>
+                        <option value="to top">To Top</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gradient-preview" id="gradient-preview">
+                <p>Your gradient preview will appear here</p>
+            </div>
+            <div class="code-output">
+                <label for="css-code">CSS Code: <span id="copy">Copy</span></label>
+                <textarea id="css-code" readonly></textarea>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Gradient Generator | Designed with <span>♥</span> by <a href="https://ajay-dhangar.github.io" target="_blank">Ajay Dhangar</a> </p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
